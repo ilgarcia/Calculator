@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+  --blue-500: #2a93e5;
+  --purple-500: #7d4dd2;
+  --gray-100: #ececec;
+  --gray-300: #e2e2e2;
+  --gray-500: #d7d7d7;
+}
+
+body,
+input,
+select,
+textarea,
+button {
+  font: 400 1rem "Roboto", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

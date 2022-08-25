@@ -1,0 +1,64 @@
+.contentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: var(--purple-500);
+
+  & > div {
+    justify-content: center;
+    width: 16rem;
+    padding: 1rem;
+    background: var(--gray-100);
+    border-radius: 0.25rem;
+    box-shadow: 3px 3px 5px var(--gray-500);
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--blue-500);
+  }
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+button {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+  border: 1px solid var(--gray-500);
+  border-radius: 0.25rem;
+
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+}
+
+.buttonOperator {
+  background: var(--gray-500);
+}
+
+.valuesDisplay {
+  width: 100%;
+  background: var(--gray-300);
+  border-radius: 0.25rem;
+
+  margin-bottom: 0.75rem;
+  padding: 0.5rem;
+  text-align: end;
+
+  & > p {
+    margin-bottom: 0.25rem;
+  }
+}

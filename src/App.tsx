@@ -1,7 +1,14 @@
+import { Calculator } from "./components/Calculator";
+
+import { HandleProvider } from "./hooks/HandleContext";
+
+import "./styles/global.scss";
 
 export function App() {
   return (
-      <h1>Teste</h1>
+    <HandleProvider>
+      <Calculator />
+    </HandleProvider>
   );
 }
 
